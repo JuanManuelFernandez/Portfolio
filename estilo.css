@@ -2,7 +2,7 @@
 .BackGroundMain{
     width: 100%;
     height: 800px;
-    background-image: url('Foto/Fondo.jpg');
+    background-image: url('Foto/Fondo2.png');
     background-size: cover;
     background-position: center;
     justify-items: center;
@@ -16,7 +16,7 @@
     margin: 20px 0;
 }
 #H1Arriba{
-    color: #17a2d6;
+    color: black;
     font-size: 120px;
 }
 .H2Container{
@@ -191,7 +191,7 @@
 #PrAppCarga{
     width: 100px;
     height: 100px;
-    background-image: url('Foto/PC.Png');
+    background-image: url('Foto/PC.png');
     background-size: cover;
     background-position: center;
     border: 2px solid black;
@@ -220,6 +220,7 @@
     background-position: center;
     border: 2px solid black;
 }
+/*CONTACTOS*/
 .BackGroundCont{
     width: 50%;
     height: 400px; /*ajustamos la altura del rectangulo al texto*/
@@ -269,4 +270,75 @@
     background-image: url('Foto/Linkedin.png');
     background-size: cover;
     background-position: center;
+}
+/*CATALOGO DE CONTACTOS*/
+.BackGroundCatalogo{
+    width: 50%;
+    height: 400px; /*ajustamos la altura del rectangulo al texto*/
+    background-color: white;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto; /*Centrar el div*/
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    text-align: center; /* Centra el texto */
+}
+.ContainerH2Catalogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+#H2Catalogo{
+    color: black;
+    font-size: 40px;
+}
+#BtnIngresar{
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    background-color: #151516;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+#LblNombre{
+    color: black;
+    font-size: 20px;
+}
+#LblCorreo{
+    color: black;
+    font-size: 20px;
+}
+#LblTelefono{
+    color: black;
+    font-size: 20px;
+}
+#txtNombre{
+    width: 300px;
+    height: 30px;
+    margin-left: 10px;
+    color: white;
+    background-color: #17a2d6;
+    font-size: 20px;
+}
+#txtCorreo{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 300px;
+    height: 30px;
+    color: white;
+    background-color: #17a2d6;
+    font-size: 20px;
+}
+#txtTelefono{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 300px;
+    height: 30px;
+    color: white;
+    background-color: #17a2d6;
+    font-size: 20px;
 }

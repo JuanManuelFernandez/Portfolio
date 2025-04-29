@@ -15,6 +15,26 @@
 </head>
 
 <body>
+    <!--LOGICA CAMPOS TXT CATALOGO DE CONTACTOS-->
+    <script>
+        function Ingresar(){
+            /*Tomamos los valores y los guardamos en variables*/
+            var user = document.getElementById("txtNombre").value;
+            var mail = document.getElementById("txtCorreo").value;
+            var phone = document.getElementById("txtTelefono").value;
+            alert("Se registraron tus datos");
+            /*Mostramos para verificar en consola*/
+            console.log("HOLA " + user);
+            console.log("TU CORREO ES: " + mail);
+            console.log("TU TELEFONO ES: " + phone);
+            /*Limpiamos los campos*/
+            document.getElementById("txtNombre").value = "";
+            document.getElementById("txtCorreo").value = "";
+            document.getElementById("txtTelefono").value = "";
+            
+        }
+    </script>
+
     <!--MAIN-->
     <div class="BackGroundMain">
         <div class="H1Container">
@@ -25,7 +45,7 @@
             <h2 class="H2Arriba"><a href="#H2Ab">Sobre mí</a></h2>
             <h2 class="H2Arriba"><a href="#H2Co">Conocimientos</a></h2>
             <h2 class="H2Arriba"><a href="#H2Pr">Proyectos</a></h2>
-            <h2 class="H2Arriba"><a href="#H2Cont">Contactos</a></h2>
+            <h2 class="H2Arriba"><a href="#H2Cont">Contactame</a></h2>
         </div>
     </div>
     <!--SOBRE MI-->
@@ -38,9 +58,10 @@
                 <div id="MiFoto"></div>
             </div>
             <div class="PaboutMe">
-                <p>Soy Juan Manuel Fernández Bogo, tengo diecinueve años,</p>
-                <p>estudiante de la carrera técnico universitario en programación en la UTN, </p>
-                <p>actualmente me encuentro trabajando de analista de datos.</p>
+                <p>¡Hola! Mi nombre es Juan Manuel Fernández Bogo, tengo diecinueve años,</p>
+                <p>estudiante de la carrera "Técnico universitario en programación" en la UTN, </p>
+                <p>soy un desarrollador apasionado, disfruto trabajar en ideas que desafien mi habilidad.</p>
+                <p>y transformarlas en proyectos funcionales y atractivos para el usuario.</p>
             </div>
         </div>
     </div>
@@ -71,15 +92,36 @@
             <a href="https://github.com/JuanManuelFernandez/turtle-flower" target="_blank" id="PrFlor"></a>
         </div>
     </div>
-
+    <!--CONTACTOS-->
     <div class="BackGroundCont">
         <div class="ContainerH2Cont">
-            <h2 id="H2Cont">Contactos</h2>
+            <h2 id="H2Cont">Redes</h2>
         </div>
         <div class="ContainerImgsCont">
             <a href="https://github.com/JuanManuelFernandez" target="_blank" id="GitHub"></a>
             <a href="https://www.instagram.com/juanma_424/" target="_blank" id="Instagram"></a>
             <a href="https://www.linkedin.com/in/juan-manuel-fern%C3%A1ndez-bogo-46a38a288/" target="_blank" id="Linkedin"></a>
+        </div>
+    </div>
+    <!--CATALOGO DE CONTACTOS-->
+    <div class="BackGroundCatalogo">
+        <div class="ContainerH2Catalogo">
+            <h2 id="H2Catalogo">Deja tus datos</h2>
+        </div>
+        <div class="ItemsNombre">
+            <label for="" id="LblNombre">Nombre</label>
+            <input type="text" id="txtNombre">
+        </div>
+        <div class="ItemsCorreo">
+            <label for="" id="LblCorreo">Correo</label>
+            <input type="text" id="txtCorreo">
+        </div>
+        <div class="ItemsTelefono">
+            <label for="" id="LblTelefono">Telefono</label>
+            <input type="text" id="txtTelefono">
+        </div>
+        <div>
+            <button onclick="Ingresar()" id="BtnIngresar">Ingresar</button>
         </div>
     </div>
 </body>
