@@ -4,32 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
     <style>
         body {
-            background-color: black; /* Establece el color de fondo a negro */
+            background-color: white; /* Establece el color de fondo a negro */
             color: white; /* Cambia el color del texto a blanco para que sea legible */
             font-family: Arial, sans-serif; /* Establece una fuente para el texto */
         }
     </style>
 </head>
 
-<style>
-    P{
-        color: darkgray;
-        font-size: 20px;
-    }
-    .colorPrincipal{
-        color: brown;
-        font-size: 20px;
-        font-weight: bold;
-    }
-</style>
-
 <body>
-    <h1 style="color: grey; font-size: 30px;">Fernández Bogo Juan Manuel</h1>
-    <h2 id="h2">Porfolio</h2>
-    <p id="P">En este lugar se vera mi porfolio en un futuro</p>
-    <p class="colorPrincipal">La siguente foto es el mejor personaje de la historia</p>
-    <img width = 500px src="https://cdnb.artstation.com/p/assets/images/images/051/674/549/large/gunnn-griffith-10.jpg?1657881930" alt="">
+    <!--MAIN-->
+    <div class="BackGroundMain">
+        <div class="H1Container">
+            <h1 id="H1Arriba">Juan Manuel</h1>
+        </div>
+
+        <div class="H2Container"> <!--Creamos un div para poner los h2 inline-->
+            <h2 class="H2Arriba"><a href="#H2Ab">Sobre mí</a></h2>
+            <h2 class="H2Arriba"><a href="#H2Co">Conocimientos</a></h2>
+            <h2 class="H2Arriba"><a href="#H2Pr">Proyectos</a></h2>
+            <h2 class="H2Arriba"><a href="#H2Cont">Contactos</a></h2>
+        </div>
+    </div>
+    <!--SOBRE MI-->
+    <div class="BackGroundAb">
+        <div class="ContainerH2Ab">
+            <h2 id="H2Ab">Sobre mí</h2>
+        </div>
+        <div class="SobreMiContainer">
+            <div class="ImgAb">
+                <div id="MiFoto"></div>
+            </div>
+            <div class="PaboutMe">
+                <p>Soy Juan Manuel Fernández Bogo, tengo diecinueve años,</p>
+                <p>estudiante de la carrera técnico universitario en programación en la UTN, </p>
+                <p>actualmente me encuentro trabajando de analista de datos.</p>
+            </div>
+        </div>
+    </div>
+    <!--CONOCIMIENTOS-->
+    <div class="BackGroundCo">
+        <div class="ContainerH2Co">
+            <h2 id="H2Co">Conocimientos</h2>
+        </div>
+        <div class="ImgsCon">
+            <div id="Py"></div>
+            <div id="C"></div>
+            <div id="Csharp"></div>
+            <div id="HTML"></div>
+            <div id="CSS"></div>
+            <div id="SQL"></div>
+        </div>
+    </div>
+    <!--PROYECTOS-->
+    <div class="BackGroundPr">
+        <div class="ContainerH2Pr">
+            <h2 id="H2Pr">Proyectos</h2>
+        </div>
+        <div class="ContainerImgs">
+            <a href="https://github.com/JuanManuelFernandez/Laboratorio-Juego" target="_blank" id="PrJuego"></a>
+            <a href="https://github.com/JuanManuelFernandez/MVC-ORM-POO" target="_blank" id="PrAppCarga"></a>
+            <a href="https://github.com/JuanManuelFernandez/python-calculadora" target="_blank" id="PrCalc"></a>
+            <a href="https://github.com/JuanManuelFernandez/turtle-heart" target="_blank" id="PrHeart"></a>
+            <a href="https://github.com/JuanManuelFernandez/turtle-flower" target="_blank" id="PrFlor"></a>
+        </div>
+    </div>
+
+    <div class="BackGroundCont">
+        <div class="ContainerH2Cont">
+            <h2 id="H2Cont">Contactos</h2>
+        </div>
+        <div class="ContainerImgsCont">
+            <a href="https://github.com/JuanManuelFernandez" target="_blank" id="GitHub"></a>
+            <a href="https://www.instagram.com/juanma_424/" target="_blank" id="Instagram"></a>
+            <a href="https://www.linkedin.com/in/juan-manuel-fern%C3%A1ndez-bogo-46a38a288/" target="_blank" id="Linkedin"></a>
+        </div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,272 @@
+/*MAIN*/
+.BackGroundMain{
+    width: 100%;
+    height: 800px;
+    background-image: url('Foto/Fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 0px;
+}
+.H1Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+#H1Arriba{
+    color: #17a2d6;
+    font-size: 120px;
+}
+.H2Container{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+}
+.H2Arriba a{
+    color: white;
+    font-size: 40px;
+    margin: 0px 80px;
+    background-color: #151516;
+    text-decoration: none;
+}
+/*SOBRE MI*/
+.BackGroundAb{
+    width: 50%;
+    height: auto; /*ajustamos la altura del rectangulo al texto*/
+    background-color: white;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto; /*Centrar el div*/
+    margin-top: 80px;
+    display: flex; /* Habilita flexbox */
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    text-align: center; /* Centra el texto */
+}
+.SobreMiContainer {
+    display: flex; /* Habilita flexbox */
+    align-items: center; /* Centra verticalmente */
+    margin: 20px 0; /* Espaciado alrededor */
+}
+.ContainerH2Ab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+#H2Ab{
+    color: black;
+    font-size: 40px;
+}
+.PaboutMe{
+    color: black;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    font-weight: bold;
+}
+.ImgAb{
+    margin-right: 20px;
+}
+#MiFoto{
+    width: 200px;
+    height: 250px;
+    background-image: url('Foto/MiFoto.png');
+    background-size: cover;
+    background-position: center;
+}
+/*CONOCIMIENTOS*/
+.BackGroundCo{
+    width: 50%;
+    height: 400px; /*ajustamos la altura del rectangulo al texto*/
+    background-color: white;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto; /*Centrar el div*/
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    text-align: center; /* Centra el texto */
+}
+.ContainerH2Co{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+#H2Co{
+    color: black;
+    font-size: 40px;
+}
+.ImgsCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 30px;
+}
+#Py{
+    width: 120px;
+    height: 140px;
+    background-image: url('Foto/Python.png');
+    background-size: cover;
+    background-position: center;
+}
+#C{
+    width: 120px;
+    height: 140px;
+    background-image: url('Foto/C.png');
+    background-size: cover;
+    background-position: center;
+}
+#Csharp{
+    width: 120px;
+    height: 140px;
+    background-image: url('Foto/Csharp.png');
+    background-size: cover;
+    background-position: center;
+}
+#HTML{
+    width: 120px;
+    height: 140px;
+    background-image: url('Foto/HTML.png');
+    background-size: cover;
+    background-position: center;
+}
+#CSS{
+    width: 100px;
+    height: 140px;
+    background-image: url('Foto/CSS.png');
+    background-size: cover;
+    background-position: center;
+}
+#SQL{
+    width: 100px;
+    height: 140px;
+    background-image: url('Foto/SQL.png');
+    background-size: cover;
+    background-position: center;
+}
+/*PROYECTOS*/
+.BackGroundPr{
+    width: 50%;
+    height: 400px; /*ajustamos la altura del rectangulo al texto*/
+    background-color: white;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto; /*Centrar el div*/
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    text-align: center; /* Centra el texto */
+}
+.ContainerPr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+#H2Pr{
+    color: black;
+    font-size: 40px;
+}
+.ContainerImgs{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+    gap: 30px;
+}
+#PrJuego{
+    width: 100px;
+    height: 100px;
+    background-image: url('Foto/Juego.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+}
+#PrAppCarga{
+    width: 100px;
+    height: 100px;
+    background-image: url('Foto/App.Png');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+}
+#PrCalc{
+    width: 100px;
+    height: 100px;
+    background-image: url('Foto/Calculadora.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+}
+#PrHeart{
+    width: 100px;
+    height: 100px;
+    background-image: url('Foto/Corazon.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+}
+#PrFlor{
+    width: 100px;
+    height: 100px;
+    background-image: url('Foto/Flor.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+}
+.BackGroundCont{
+    width: 50%;
+    height: 400px; /*ajustamos la altura del rectangulo al texto*/
+    background-color: white;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto; /*Centrar el div*/
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    text-align: center; /* Centra el texto */
+}
+.ContainerH2Cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+#H2Cont{
+    color: black;
+    font-size: 40px;
+}
+.ContainerImgsCont{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+    gap: 40px;
+}
+#GitHub{
+    width: 100px;
+    height: 100px;
+    background-image: url('Foto/GitHub.png');
+    background-size: cover;
+    background-position: center;
+}
+#Instagram{
+    width: 100px;
+    height: 100px;
+    background-image: url('Foto/Instagram.png');
+    background-size: cover;
+    background-position: center;
+}
+#Linkedin{
+    width: 100px;
+    height: 100px;
+    background-image: url('Foto/Linkedin.png');
+    background-size: cover;
+    background-position: center;
+}
